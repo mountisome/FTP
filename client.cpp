@@ -5,7 +5,7 @@
 #include <iostream>
 using namespace std;
 
-#define RECV_PORT 6666	//接收端口 
+#define RECV_PORT 6666	//接收端口  
 #define SEND_PORT 8888	//发送端口 
 #pragma comment(lib, "wsock32.lib")	//加载ws2_32.dll，它是Windows Sockets应用程序接口， 用于支持Internet和网络应用程序。
 

@@ -5,7 +5,7 @@
 using namespace std;
 
 #define RECV_PORT 6666 // 接收端口  
-#define SEND_PORT 8888 // 发送端口  
+#define SEND_PORT 8888 // 发送端口   
 #pragma comment(lib, "wsock32.lib")
 
 SOCKET sockClient, sockServer;

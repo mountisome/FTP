@@ -25,7 +25,7 @@ Client::~Client()
 
 void Client::getLogin(int info)
 {
-    result = info;
+    result = info; 
 
     if (result == 0) {
         ui->buttonFile->setEnabled(false);
