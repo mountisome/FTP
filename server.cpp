@@ -15,7 +15,7 @@ sockaddr_in clientAddr; // 客户端地址
 int addrLen; // 地址长度  
 char fileName[20]; // 文件名  
 char order[20]; // 命令  
-char rbuff[1024]; // 接收缓冲区  
+char rbuff[1024]; // 接收缓冲区   
 char sbuff[1024]; // 发送缓冲区  
 
 char loginUser[100] = "user1 123456"; // 普通用户用户名和密码   
